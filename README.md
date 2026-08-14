@@ -6,9 +6,9 @@
 
 ## 🌐 Socials
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/bidurkhanal10/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/myself_bidur/)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bidur-khanal-a71810209/)
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BIDUR2062)
 
@@ -65,26 +65,13 @@
 
 ---
 
-## 📌 Featured Projects
-
-### 🎬 Movie Recommendation System
-A machine learning based movie recommendation system using Python, TF-IDF and cosine similarity.
-
-### 🏥 Hospital Management System
-A Python-based hospital management application with database integration.
-
-### 🩺 Diabetes Prediction
-A machine learning model for predicting diabetes using the Pima Indians Diabetes Dataset.
-
----
-
 ## 📫 Connect With Me
 
 If you are interested in collaboration, internships, projects, or development opportunities, feel free to connect with me.
 
 [![GitHub](https://img.shields.io/badge/GitHub-BIDUR2062-181717?style=for-the-badge&logo=github)](https://github.com/BIDUR2062)
 
-[![Instagram](https://img.shields.io/badge/Instagram-bidurkhanal10-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/bidurkhanal10/)
+[![Instagram](https://img.shields.io/badge/Instagram-bidurkhanal10-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/myself_bidur/)
 
 ---
 

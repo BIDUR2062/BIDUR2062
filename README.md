@@ -39,19 +39,17 @@
 
 ## 📊 GitHub Stats
 
-![Bidur's GitHub Stats](https://github-readme-stats.vercel.app/api?username=BIDUR2062&show_icons=true&theme=tokyonight&hide_border=false)
+![Bidur's GitHub Stats](./profile/stats.svg)
 
 ---
 
 ## 🔥 GitHub Streak
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=BIDUR2062&theme=tokyonight&hide_border=false)
-
----
+![GitHub Streak](./profile/streak.svg)
 
 ## 📈 Top Languages
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=BIDUR2062&layout=compact&theme=tokyonight)
+![Top Languages](./profile/top-langs.svg)
 
 ---
 

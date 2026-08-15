@@ -24,6 +24,7 @@
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitHub](https://imgs.search.brave.com/28T-cCt-wh-tzeVIj7bCCZTmW0zpqqHmYk3icNwdKdM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9leHBs/b3JlLWZlZWQuZ2l0/aHViLmNvbS90b3Bp/Y3Mvb3JhY2xlLWRh/dGFiYXNlL29yYWNs/ZS1kYXRhYmFzZS5w/bmc)
 
 ---
 

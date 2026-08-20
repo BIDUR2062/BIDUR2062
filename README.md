@@ -1,8 +1,9 @@
 # 👋 Hi, I'm Bidur Khanal
 
-### AI Enthusiast | Python Developer | Backend Developer
+### AI Enthusiast | Python Developer | Backend Developer | Data Analyst
 
 ---
+![Data Analyst](https://img.shields.io/badge/Data%20Analytics-Pandas%20%7C%20NumPy%20%7C%20SQL-blue?style=flat-square)
 
 ## 🌐 Socials
 
@@ -52,16 +53,24 @@
 ![Top Languages](./profile/top-langs.svg)
 
 ---
-
-## 🚀 About Me
-
-- 🎓 BSc CSIT Student
-- 🤖 Interested in Artificial Intelligence and Machine Learning
-- 🐍 Python Developer
-- ⚙️ Backend Developer
-- 💻 Interested in building intelligent applications
-- 📚 Currently learning AI/ML and backend development
-- 🔍 Open to internships and full-time opportunities
+📊 Data Analytics
+Data Cleaning & Preprocessing
+Exploratory Data Analysis (EDA)
+Data Visualization
+Statistical Analysis
+Data Manipulation with Pandas
+SQL Data Analysis
+---
+##🚀 About Me
+🎓 BSc CSIT Student
+🤖 Interested in Artificial Intelligence and Machine Learning
+🐍 Python Developer
+⚙️ Backend Developer
+📊 Data Analyst
+📈 Interested in Data Analysis and Visualization
+💻 Interested in building intelligent applications
+📚 Currently learning AI/ML, Data Analytics, and Backend Development
+🔍 Open to internships and full-time opportunities
 
 ---
 

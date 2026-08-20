@@ -38,12 +38,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-![Bidur's GitHub Stats](./profile/stats.svg)
-
----
-
 ## 🔥 GitHub Streak
 
 ![GitHub Streak](./profile/streak.svg)

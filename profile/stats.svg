@@ -1,95 +1,227 @@
-<svg width="380" height="520" viewBox="0 0 380 520" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
-  <defs>
-    <clipPath id="zigTop">
-      <path d="M0,12 L8,0 L16,12 L24,0 L32,12 L40,0 L48,12 L56,0 L64,12 L72,0 L80,12 L88,0 L96,12 L104,0 L112,12 L120,0 L128,12 L136,0 L144,12 L152,0 L160,12 L168,0 L176,12 L184,0 L192,12 L200,0 L208,12 L216,0 L224,12 L232,0 L240,12 L248,0 L256,12 L264,0 L272,12 L280,0 L288,12 L296,0 L304,12 L312,0 L320,12 L328,0 L336,12 L344,0 L352,12 L360,0 L368,12 L376,0 L380,12 L380,20 L0,20 Z"/>
-    </clipPath>
-    <clipPath id="zigBottom">
-      <path d="M0,8 L8,20 L16,8 L24,20 L32,8 L40,20 L48,8 L56,20 L64,8 L72,20 L80,8 L88,20 L96,8 L104,20 L112,8 L120,20 L128,8 L136,20 L144,8 L152,20 L160,8 L168,20 L176,8 L184,20 L192,8 L200,20 L208,8 L216,20 L224,8 L232,20 L240,8 L248,20 L256,8 L264,20 L272,8 L280,20 L288,8 L296,20 L304,8 L312,20 L320,8 L328,20 L336,8 L344,20 L352,8 L360,20 L368,8 L376,20 L380,8 L380,0 L0,0 Z"/>
-    </clipPath>
-  </defs>
+ <svg
+        width="467"
+        height="195"
+        viewBox="0 0 467 195"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
+      >
+        <title id="titleId">Bidur Khanal&#39;s GitHub Stats, Rank: C</title>
+        <desc id="descId">Total Stars Earned: 2, Total Commits  (last year) : 41, Total PRs: 0, Total Issues: 0, Contributed to (last year): 0</desc>
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #70a5fd;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
+          }
+          
+    .stat {
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #38bdae;
+    }
+    @supports(-moz-appearance: auto) {
+      /* Selector detects Firefox */
+      .stat { font-size:12px; }
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.3s ease-in-out forwards;
+    }
+    .rank-text {
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae;
+      animation: scaleInAnimation 0.3s ease-in-out forwards;
+    }
+    .rank-percentile-header {
+      font-size: 14px;
+    }
+    .rank-percentile-text {
+      font-size: 16px;
 
-  <rect x="0" y="0" width="380" height="520" fill="#0d1117"/>
+    }
+    
+    .not_bold { font-weight: 400 }
+    .bold { font-weight: 700 }
+    .icon {
+      fill: #bf91f3;
+      display: block;
+    }
 
-  <rect x="10" y="10" width="360" height="480" fill="#f3efe1"/>
-  <rect x="10" y="10" width="360" height="20" fill="#0d1117" clip-path="url(#zigTop)" transform="translate(0,0)"/>
-  <rect x="10" y="470" width="360" height="20" fill="#0d1117" clip-path="url(#zigBottom)" transform="translate(0,470)"/>
+    .rank-circle-rim {
+      stroke: #70a5fd;
+      fill: none;
+      stroke-width: 6;
+      opacity: 0.2;
+    }
+    .rank-circle {
+      stroke: #70a5fd;
+      stroke-dasharray: 250;
+      fill: none;
+      stroke-width: 6;
+      stroke-linecap: round;
+      opacity: 0.8;
+      transform-origin: -10px 8px;
+      transform: rotate(-90deg);
+      animation: rankAnimation 1s forwards ease-in-out;
+    }
+    
+    @keyframes rankAnimation {
+      from {
+        stroke-dashoffset: 251.32741228718345;
+      }
+      to {
+        stroke-dashoffset: 235.75030240814854;
+      }
 
-  <rect x="284" y="34" width="66" height="22" rx="3" fill="none" stroke="#b0392c" stroke-width="2" transform="rotate(6 317 45)"/>
-  <text x="317" y="49" font-family="'Courier New', monospace" font-weight="bold" font-size="10" letter-spacing="1" fill="#b0392c" text-anchor="middle" transform="rotate(6 317 45)">STATIC</text>
+    }
+  
+      /* Animations */
+      @keyframes scaleInAnimation {
+        from {
+          transform: translate(-5px, 5px) scale(0);
+        }
+        to {
+          transform: translate(-5px, 5px) scale(1);
+        }
+      }
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
 
-  <text x="38" y="58" font-family="'Courier New', monospace" font-weight="bold" font-size="20" letter-spacing="1" fill="#2b2924">GITHUB RECEIPT</text>
-  <text x="38" y="76" font-size="11" fill="#6f6a5c" letter-spacing="0.5">a printout of your public activity</text>
+        </style>
 
-  <text x="38" y="100" font-size="12" fill="#6f6a5c" letter-spacing="1">USER:</text>
-  <text x="90" y="100" font-size="13" fill="#2b2924" font-weight="bold">bidur-khanal</text>
-  <line x1="38" y1="106" x2="342" y2="106" stroke="#c9c2a8" stroke-width="1"/>
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99%"
+          stroke="#e4e2e2"
+          width="466"
+          fill="#1a1b27"
+          stroke-opacity="1"
+        />
 
-  <line x1="38" y1="120" x2="342" y2="120" stroke="#c9c2a8" stroke-width="1" stroke-dasharray="2,2"/>
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >Bidur Khanal&#39;s GitHub Stats</text>
+    </g>
+      </g>
+    
 
-  <!-- Rows -->
-  <g font-size="13" fill="#2b2924">
-    <text x="38" y="148">STARS EARNED</text>
-    <line x1="150" y1="144" x2="290" y2="144" stroke="#c9c2a8" stroke-width="1" stroke-dasharray="1,2"/>
-    <text x="332" y="148" font-weight="bold" fill="#a8791f" text-anchor="end">128</text>
-
-    <text x="38" y="176">COMMITS (RECENT)</text>
-    <line x1="180" y1="172" x2="290" y2="172" stroke="#c9c2a8" stroke-width="1" stroke-dasharray="1,2"/>
-    <text x="332" y="176" font-weight="bold" fill="#3f7d5c" text-anchor="end">64</text>
-
-    <text x="38" y="204">PULL REQUESTS</text>
-    <line x1="158" y1="200" x2="290" y2="200" stroke="#c9c2a8" stroke-width="1" stroke-dasharray="1,2"/>
-    <text x="332" y="204" font-weight="bold" fill="#3a6fa8" text-anchor="end">21</text>
-
-    <text x="38" y="232">ISSUES OPENED</text>
-    <line x1="152" y1="228" x2="290" y2="228" stroke="#c9c2a8" stroke-width="1" stroke-dasharray="1,2"/>
-    <text x="332" y="232" font-weight="bold" fill="#b0392c" text-anchor="end">17</text>
-
-    <text x="38" y="260">REPOS CONTRIBUTED</text>
-    <line x1="192" y1="256" x2="290" y2="256" stroke="#c9c2a8" stroke-width="1" stroke-dasharray="1,2"/>
-    <text x="332" y="260" font-weight="bold" fill="#7a4fa0" text-anchor="end">9</text>
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          
+    <g data-testid="rank-circle"
+          transform="translate(390.5, 47.5)">
+        <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
+        <circle class="rank-circle" cx="-10" cy="8" r="40" />
+        <g class="rank-text">
+          
+        <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
+          C
+        </text>
+      
+        </g>
+      </g>
+    <svg x="0" y="0">
+      <g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total Stars Earned:</text>
+      <text
+        class="stat  bold"
+        x="224.01"
+        y="12.5"
+        data-testid="stars"
+      >2</text>
+    </g>
+  </g><g transform="translate(0, 25)">
+    <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total Commits (last year):</text>
+      <text
+        class="stat  bold"
+        x="224.01"
+        y="12.5"
+        data-testid="commits"
+      >41</text>
+    </g>
+  </g><g transform="translate(0, 50)">
+    <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total PRs:</text>
+      <text
+        class="stat  bold"
+        x="224.01"
+        y="12.5"
+        data-testid="prs"
+      >0</text>
+    </g>
+  </g><g transform="translate(0, 75)">
+    <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total Issues:</text>
+      <text
+        class="stat  bold"
+        x="224.01"
+        y="12.5"
+        data-testid="issues"
+      >0</text>
+    </g>
+  </g><g transform="translate(0, 100)">
+    <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Contributed to (last year):</text>
+      <text
+        class="stat  bold"
+        x="224.01"
+        y="12.5"
+        data-testid="contribs"
+      >0</text>
+    </g>
   </g>
-
-  <line x1="38" y1="278" x2="342" y2="278" stroke="#c9c2a8" stroke-width="1" stroke-dasharray="2,2"/>
-
-  <text x="38" y="304" font-family="'Courier New', monospace" font-weight="bold" font-size="15" letter-spacing="1" fill="#2b2924">TOTAL</text>
-  <text x="332" y="304" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#2b2924" text-anchor="end">239</text>
-
-  <text x="38" y="326" font-size="10.5" fill="#6f6a5c">static snapshot — regenerate via GitHub Action to update</text>
-
-  <!-- Barcode -->
-  <g fill="#2b2924" transform="translate(38,344)">
-    <rect x="0" y="0" width="3" height="28"/>
-    <rect x="5" y="4" width="1" height="24"/>
-    <rect x="8" y="0" width="2" height="28"/>
-    <rect x="12" y="8" width="4" height="20"/>
-    <rect x="18" y="4" width="1" height="24"/>
-    <rect x="21" y="0" width="1" height="28"/>
-    <rect x="24" y="6" width="3" height="22"/>
-    <rect x="29" y="0" width="2" height="28"/>
-    <rect x="33" y="4" width="1" height="24"/>
-    <rect x="36" y="8" width="4" height="20"/>
-    <rect x="42" y="0" width="2" height="28"/>
-    <rect x="46" y="4" width="1" height="24"/>
-    <rect x="49" y="6" width="1" height="22"/>
-    <rect x="52" y="0" width="3" height="28"/>
-    <rect x="57" y="4" width="1" height="24"/>
-    <rect x="60" y="8" width="2" height="20"/>
-    <rect x="64" y="0" width="4" height="28"/>
-    <rect x="70" y="6" width="1" height="22"/>
-    <rect x="73" y="4" width="2" height="24"/>
-    <rect x="77" y="0" width="1" height="28"/>
-    <rect x="80" y="4" width="3" height="24"/>
-    <rect x="85" y="8" width="1" height="20"/>
-    <rect x="88" y="0" width="1" height="28"/>
-    <rect x="91" y="4" width="2" height="24"/>
-    <rect x="95" y="0" width="4" height="28"/>
-    <rect x="101" y="6" width="1" height="22"/>
-    <rect x="104" y="0" width="3" height="28"/>
-    <rect x="109" y="4" width="1" height="24"/>
-    <rect x="112" y="6" width="2" height="22"/>
-    <rect x="116" y="4" width="1" height="24"/>
-  </g>
-
-  <text x="190" y="400" font-size="10" letter-spacing="2" fill="#6f6a5c" text-anchor="middle">THANK YOU FOR YOUR CONTRIBUTIONS</text>
-  <text x="190" y="418" font-size="10" fill="#6f6a5c" text-anchor="middle">issued as a static snapshot</text>
-</svg>
+    </svg>
+  
+        </g>
+      </svg>
+    

@@ -47,14 +47,6 @@
 ![Top Languages](./profile/top-langs.svg)
 
 ---
-📊 Data Analytics
-Data Cleaning & Preprocessing
-Exploratory Data Analysis (EDA)
-Data Visualization
-Statistical Analysis
-Data Manipulation with Pandas
-SQL Data Analysis
----
 ##🚀 About Me
 🎓 BSc CSIT Student
 🤖 Interested in Artificial Intelligence and Machine Learning

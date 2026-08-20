@@ -1,399 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>GitHub Receipt</title>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+<svg width="380" height="520" viewBox="0 0 380 520" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <defs>
+    <clipPath id="zigTop">
+      <path d="M0,12 L8,0 L16,12 L24,0 L32,12 L40,0 L48,12 L56,0 L64,12 L72,0 L80,12 L88,0 L96,12 L104,0 L112,12 L120,0 L128,12 L136,0 L144,12 L152,0 L160,12 L168,0 L176,12 L184,0 L192,12 L200,0 L208,12 L216,0 L224,12 L232,0 L240,12 L248,0 L256,12 L264,0 L272,12 L280,0 L288,12 L296,0 L304,12 L312,0 L320,12 L328,0 L336,12 L344,0 L352,12 L360,0 L368,12 L376,0 L380,12 L380,20 L0,20 Z"/>
+    </clipPath>
+    <clipPath id="zigBottom">
+      <path d="M0,8 L8,20 L16,8 L24,20 L32,8 L40,20 L48,8 L56,20 L64,8 L72,20 L80,8 L88,20 L96,8 L104,20 L112,8 L120,20 L128,8 L136,20 L144,8 L152,20 L160,8 L168,20 L176,8 L184,20 L192,8 L200,20 L208,8 L216,20 L224,8 L232,20 L240,8 L248,20 L256,8 L264,20 L272,8 L280,20 L288,8 L296,20 L304,8 L312,20 L320,8 L328,20 L336,8 L344,20 L352,8 L360,20 L368,8 L376,20 L380,8 L380,0 L0,0 Z"/>
+    </clipPath>
+  </defs>
 
-  :root{
-    --paper: #f3efe1;
-    --paper-shadow: #e2dcc6;
-    --ink: #2b2924;
-    --ink-soft: #6f6a5c;
-    --line: #c9c2a8;
-    --stamp: #b0392c;
-    --stamp-2: #3f7d5c;
-  }
+  <rect x="0" y="0" width="380" height="520" fill="#0d1117"/>
 
-  * { box-sizing: border-box; }
+  <rect x="10" y="10" width="360" height="480" fill="#f3efe1"/>
+  <rect x="10" y="10" width="360" height="20" fill="#0d1117" clip-path="url(#zigTop)" transform="translate(0,0)"/>
+  <rect x="10" y="470" width="360" height="20" fill="#0d1117" clip-path="url(#zigBottom)" transform="translate(0,470)"/>
 
-  html, body {
-    margin: 0;
-    background: transparent;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    min-height: 100vh;
-    font-family: 'JetBrains Mono', monospace;
-    color: var(--ink);
-  }
+  <rect x="284" y="34" width="66" height="22" rx="3" fill="none" stroke="#b0392c" stroke-width="2" transform="rotate(6 317 45)"/>
+  <text x="317" y="49" font-family="'Courier New', monospace" font-weight="bold" font-size="10" letter-spacing="1" fill="#b0392c" text-anchor="middle" transform="rotate(6 317 45)">STATIC</text>
 
-  .wrap { padding: 40px 20px; width: 100%; display: flex; justify-content: center; }
+  <text x="38" y="58" font-family="'Courier New', monospace" font-weight="bold" font-size="20" letter-spacing="1" fill="#2b2924">GITHUB RECEIPT</text>
+  <text x="38" y="76" font-size="11" fill="#6f6a5c" letter-spacing="0.5">a printout of your public activity</text>
 
-  .receipt {
-    position: relative;
-    width: 360px;
-    max-width: 100%;
-    background: var(--paper);
-    box-shadow: 0 25px 50px -18px rgba(0,0,0,0.45);
-    padding: 6px 0 0;
-  }
+  <text x="38" y="100" font-size="12" fill="#6f6a5c" letter-spacing="1">USER:</text>
+  <text x="90" y="100" font-size="13" fill="#2b2924" font-weight="bold">bidur-khanal</text>
+  <line x1="38" y1="106" x2="342" y2="106" stroke="#c9c2a8" stroke-width="1"/>
 
-  .zig-top, .zig-bottom {
-    height: 12px;
-    background:
-      linear-gradient(135deg, transparent 8px, var(--paper) 0) 0 -4px,
-      linear-gradient(225deg, transparent 8px, var(--paper) 0) 0 -4px;
-    background-size: 16px 16px;
-    background-repeat: repeat-x;
-  }
-  .zig-bottom { transform: scaleY(-1); }
+  <line x1="38" y1="120" x2="342" y2="120" stroke="#c9c2a8" stroke-width="1" stroke-dasharray="2,2"/>
 
-  .inner { padding: 4px 28px 26px; }
+  <!-- Rows -->
+  <g font-size="13" fill="#2b2924">
+    <text x="38" y="148">STARS EARNED</text>
+    <line x1="150" y1="144" x2="290" y2="144" stroke="#c9c2a8" stroke-width="1" stroke-dasharray="1,2"/>
+    <text x="332" y="148" font-weight="bold" fill="#a8791f" text-anchor="end">128</text>
 
-  .stamp {
-    position: absolute;
-    top: 26px;
-    right: 22px;
-    border: 2px solid var(--stamp);
-    color: var(--stamp);
-    font-family: 'Courier Prime', monospace;
-    font-weight: 700;
-    font-size: 11px;
-    letter-spacing: 0.12em;
-    padding: 4px 8px;
-    border-radius: 3px;
-    transform: rotate(6deg);
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    opacity: 0.9;
-  }
-  .stamp .dot {
-    width: 6px; height: 6px; border-radius: 50%;
-    background: var(--stamp);
-    animation: pulse 1.4s ease-in-out infinite;
-  }
-  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.25; } }
+    <text x="38" y="176">COMMITS (RECENT)</text>
+    <line x1="180" y1="172" x2="290" y2="172" stroke="#c9c2a8" stroke-width="1" stroke-dasharray="1,2"/>
+    <text x="332" y="176" font-weight="bold" fill="#3f7d5c" text-anchor="end">64</text>
 
-  .title {
-    font-family: 'Courier Prime', monospace;
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin: 10px 0 2px;
-  }
-  .subtitle {
-    font-size: 11px;
-    color: var(--ink-soft);
-    letter-spacing: 0.04em;
-    margin-bottom: 18px;
-  }
+    <text x="38" y="204">PULL REQUESTS</text>
+    <line x1="158" y1="200" x2="290" y2="200" stroke="#c9c2a8" stroke-width="1" stroke-dasharray="1,2"/>
+    <text x="332" y="204" font-weight="bold" fill="#3a6fa8" text-anchor="end">21</text>
 
-  .field-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 16px;
-    font-size: 12px;
-  }
-  .field-row label {
-    color: var(--ink-soft);
-    letter-spacing: 0.08em;
-    white-space: nowrap;
-  }
-  .field-row input {
-    flex: 1;
-    min-width: 0;
-    background: transparent;
-    border: none;
-    border-bottom: 1px dashed var(--line);
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 13px;
-    color: var(--ink);
-    padding: 3px 2px;
-    outline: none;
-  }
-  .field-row input:focus { border-bottom-color: var(--ink); }
+    <text x="38" y="232">ISSUES OPENED</text>
+    <line x1="152" y1="228" x2="290" y2="228" stroke="#c9c2a8" stroke-width="1" stroke-dasharray="1,2"/>
+    <text x="332" y="232" font-weight="bold" fill="#b0392c" text-anchor="end">17</text>
 
-  .refresh-btn {
-    background: var(--ink);
-    color: var(--paper);
-    border: none;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    padding: 6px 10px;
-    border-radius: 3px;
-    cursor: pointer;
-    white-space: nowrap;
-  }
-  .refresh-btn:hover { background: #4a4638; }
-  .refresh-btn:disabled { opacity: 0.5; cursor: default; }
+    <text x="38" y="260">REPOS CONTRIBUTED</text>
+    <line x1="192" y1="256" x2="290" y2="256" stroke="#c9c2a8" stroke-width="1" stroke-dasharray="1,2"/>
+    <text x="332" y="260" font-weight="bold" fill="#7a4fa0" text-anchor="end">9</text>
+  </g>
 
-  .divider {
-    border: none;
-    border-top: 1px dashed var(--line);
-    margin: 4px 0 10px;
-  }
+  <line x1="38" y1="278" x2="342" y2="278" stroke="#c9c2a8" stroke-width="1" stroke-dasharray="2,2"/>
 
-  .row {
-    display: flex;
-    align-items: baseline;
-    font-size: 13px;
-    padding: 5px 0;
-  }
-  .row .label {
-    color: var(--ink);
-    white-space: nowrap;
-    letter-spacing: 0.02em;
-  }
-  .row .leader {
-    flex: 1;
-    border-bottom: 1px dotted var(--line);
-    margin: 0 6px;
-    transform: translateY(-3px);
-  }
-  .row .value {
-    font-weight: 700;
-    min-width: 28px;
-    text-align: right;
-    font-variant-numeric: tabular-nums;
-  }
-  .row.stars .value { color: #a8791f; }
-  .row.commits .value { color: var(--stamp-2); }
-  .row.prs .value { color: #3a6fa8; }
-  .row.issues .value { color: var(--stamp); }
-  .row.contribs .value { color: #7a4fa0; }
+  <text x="38" y="304" font-family="'Courier New', monospace" font-weight="bold" font-size="15" letter-spacing="1" fill="#2b2924">TOTAL</text>
+  <text x="332" y="304" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#2b2924" text-anchor="end">239</text>
 
-  .total-row {
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Courier Prime', monospace;
-    font-weight: 700;
-    font-size: 15px;
-    padding: 10px 0 4px;
-    letter-spacing: 0.03em;
-  }
+  <text x="38" y="326" font-size="10.5" fill="#6f6a5c">static snapshot — regenerate via GitHub Action to update</text>
 
-  .status {
-    font-size: 10.5px;
-    color: var(--ink-soft);
-    min-height: 14px;
-    margin-top: 2px;
-    letter-spacing: 0.02em;
-  }
-  .status.error { color: var(--stamp); }
+  <!-- Barcode -->
+  <g fill="#2b2924" transform="translate(38,344)">
+    <rect x="0" y="0" width="3" height="28"/>
+    <rect x="5" y="4" width="1" height="24"/>
+    <rect x="8" y="0" width="2" height="28"/>
+    <rect x="12" y="8" width="4" height="20"/>
+    <rect x="18" y="4" width="1" height="24"/>
+    <rect x="21" y="0" width="1" height="28"/>
+    <rect x="24" y="6" width="3" height="22"/>
+    <rect x="29" y="0" width="2" height="28"/>
+    <rect x="33" y="4" width="1" height="24"/>
+    <rect x="36" y="8" width="4" height="20"/>
+    <rect x="42" y="0" width="2" height="28"/>
+    <rect x="46" y="4" width="1" height="24"/>
+    <rect x="49" y="6" width="1" height="22"/>
+    <rect x="52" y="0" width="3" height="28"/>
+    <rect x="57" y="4" width="1" height="24"/>
+    <rect x="60" y="8" width="2" height="20"/>
+    <rect x="64" y="0" width="4" height="28"/>
+    <rect x="70" y="6" width="1" height="22"/>
+    <rect x="73" y="4" width="2" height="24"/>
+    <rect x="77" y="0" width="1" height="28"/>
+    <rect x="80" y="4" width="3" height="24"/>
+    <rect x="85" y="8" width="1" height="20"/>
+    <rect x="88" y="0" width="1" height="28"/>
+    <rect x="91" y="4" width="2" height="24"/>
+    <rect x="95" y="0" width="4" height="28"/>
+    <rect x="101" y="6" width="1" height="22"/>
+    <rect x="104" y="0" width="3" height="28"/>
+    <rect x="109" y="4" width="1" height="24"/>
+    <rect x="112" y="6" width="2" height="22"/>
+    <rect x="116" y="4" width="1" height="24"/>
+  </g>
 
-  .barcode {
-    display: flex;
-    align-items: flex-end;
-    gap: 2px;
-    height: 32px;
-    margin: 18px 0 8px;
-  }
-  .barcode span { display: block; background: var(--ink); }
-
-  .footer {
-    font-size: 10px;
-    color: var(--ink-soft);
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-  }
-  .timestamp {
-    font-size: 10px;
-    color: var(--ink-soft);
-    text-align: center;
-    margin-top: 4px;
-  }
-</style>
-</head>
-<body>
-<div class="wrap">
-  <div class="receipt">
-    <div class="zig-top"></div>
-    <div class="inner">
-      <div class="stamp"><span class="dot"></span>LIVE</div>
-      <div class="title">GitHub Receipt</div>
-      <div class="subtitle">a printout of your public activity</div>
-
-      <div class="field-row">
-        <label for="username">USER:</label>
-        <input id="username" type="text" value="bidur-khanal" spellcheck="false" autocomplete="off">
-        <button class="refresh-btn" id="refreshBtn">REFRESH</button>
-      </div>
-
-      <hr class="divider">
-
-      <div class="row stars">
-        <span class="label">STARS EARNED</span>
-        <span class="leader"></span>
-        <span class="value" id="v-stars">–</span>
-      </div>
-      <div class="row commits">
-        <span class="label">COMMITS (RECENT)</span>
-        <span class="leader"></span>
-        <span class="value" id="v-commits">–</span>
-      </div>
-      <div class="row prs">
-        <span class="label">PULL REQUESTS</span>
-        <span class="leader"></span>
-        <span class="value" id="v-prs">–</span>
-      </div>
-      <div class="row issues">
-        <span class="label">ISSUES OPENED</span>
-        <span class="leader"></span>
-        <span class="value" id="v-issues">–</span>
-      </div>
-      <div class="row contribs">
-        <span class="label">REPOS CONTRIBUTED</span>
-        <span class="leader"></span>
-        <span class="value" id="v-contribs">–</span>
-      </div>
-
-      <hr class="divider">
-
-      <div class="total-row">
-        <span>TOTAL</span>
-        <span id="v-total">–</span>
-      </div>
-
-      <div class="status" id="status">printing…</div>
-
-      <div class="barcode" id="barcode"></div>
-      <div class="footer">thank you for your contributions</div>
-      <div class="timestamp" id="timestamp"></div>
-    </div>
-    <div class="zig-bottom"></div>
-  </div>
-</div>
-
-<script>
-(function () {
-  const usernameInput = document.getElementById('username');
-  const refreshBtn = document.getElementById('refreshBtn');
-  const statusEl = document.getElementById('status');
-  const timestampEl = document.getElementById('timestamp');
-  const barcodeEl = document.getElementById('barcode');
-
-  const els = {
-    stars: document.getElementById('v-stars'),
-    commits: document.getElementById('v-commits'),
-    prs: document.getElementById('v-prs'),
-    issues: document.getElementById('v-issues'),
-    contribs: document.getElementById('v-contribs'),
-    total: document.getElementById('v-total'),
-  };
-
-  // decorative barcode, fixed pattern so there's no layout jitter
-  const widths = [3,1,2,4,1,1,3,2,1,4,2,1,1,3,1,2,4,1,2,1,3,1,1,2,4,1,3,1,2,1];
-  barcodeEl.innerHTML = widths.map(w =>
-    `<span style="width:${w}px;height:${10 + (w * 6)}px"></span>`
-  ).join('');
-
-  async function restoreUsername() {
-    try {
-      const res = await window.storage.get('gh-username');
-      if (res && res.value) usernameInput.value = res.value;
-    } catch (e) { /* no saved username yet, keep default */ }
-  }
-
-  function setStatus(text, isError) {
-    statusEl.textContent = text;
-    statusEl.classList.toggle('error', !!isError);
-  }
-
-  function stampTime() {
-    const now = new Date();
-    timestampEl.textContent = 'issued ' + now.toLocaleDateString() + ' ' + now.toLocaleTimeString();
-  }
-
-  async function safeJson(url) {
-    const res = await fetch(url, { headers: { Accept: 'application/vnd.github+json' } });
-    if (!res.ok) throw new Error(res.status === 404 ? 'not-found' : 'http-' + res.status);
-    return res.json();
-  }
-
-  async function loadStats() {
-    const username = usernameInput.value.trim();
-    if (!username) { setStatus('enter a github username', true); return; }
-
-    refreshBtn.disabled = true;
-    setStatus('printing…');
-    [els.stars, els.commits, els.prs, els.issues, els.contribs, els.total].forEach(el => el.textContent = '–');
-
-    try { await window.storage.set('gh-username', username); } catch (e) { /* storage optional */ }
-
-    const results = await Promise.allSettled([
-      safeJson(`https://api.github.com/users/${username}/repos?per_page=100`),
-      safeJson(`https://api.github.com/users/${username}/events/public?per_page=100`),
-      safeJson(`https://api.github.com/search/issues?q=author:${username}+type:pr`),
-      safeJson(`https://api.github.com/search/issues?q=author:${username}+type:issue`),
-    ]);
-
-    const [reposR, eventsR, prsR, issuesR] = results;
-    let anySuccess = false;
-    let total = 0;
-
-    if (reposR.status === 'fulfilled') {
-      const stars = reposR.value.reduce((sum, r) => sum + (r.stargazers_count || 0), 0);
-      els.stars.textContent = stars;
-      total += stars;
-      anySuccess = true;
-    }
-
-    if (eventsR.status === 'fulfilled') {
-      const pushEvents = eventsR.value.filter(e => e.type === 'PushEvent');
-      const commits = pushEvents.reduce((sum, e) => sum + ((e.payload && e.payload.commits) ? e.payload.commits.length : 0), 0);
-      const contributedRepos = new Set(
-        pushEvents
-          .filter(e => e.repo && e.repo.name && !e.repo.name.toLowerCase().startsWith(username.toLowerCase() + '/'))
-          .map(e => e.repo.name)
-      );
-      els.commits.textContent = commits;
-      els.contribs.textContent = contributedRepos.size;
-      total += commits + contributedRepos.size;
-      anySuccess = true;
-    }
-
-    if (prsR.status === 'fulfilled') {
-      els.prs.textContent = prsR.value.total_count;
-      total += prsR.value.total_count;
-      anySuccess = true;
-    }
-
-    if (issuesR.status === 'fulfilled') {
-      els.issues.textContent = issuesR.value.total_count;
-      total += issuesR.value.total_count;
-      anySuccess = true;
-    }
-
-    els.total.textContent = anySuccess ? total : '–';
-    stampTime();
-
-    if (!anySuccess) {
-      setStatus('live fetch unavailable here — save the file and open it in a browser to see real numbers.', true);
-    } else if (reposR.status === 'rejected' && reposR.reason && reposR.reason.message === 'not-found') {
-      setStatus('user not found — check the username.', true);
-    } else if (results.some(r => r.status === 'rejected')) {
-      setStatus('partial data — some GitHub requests were rate-limited or blocked.', true);
-    } else {
-      setStatus('commits update automatically as you push — hit refresh anytime.');
-    }
-
-    refreshBtn.disabled = false;
-  }
-
-  refreshBtn.addEventListener('click', loadStats);
-  usernameInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') loadStats(); });
-
-  restoreUsername().then(loadStats);
-  setInterval(loadStats, 5 * 60 * 1000);
-})();
-</script>
-</body>
-</html>
+  <text x="190" y="400" font-size="10" letter-spacing="2" fill="#6f6a5c" text-anchor="middle">THANK YOU FOR YOUR CONTRIBUTIONS</text>
+  <text x="190" y="418" font-size="10" fill="#6f6a5c" text-anchor="middle">issued as a static snapshot</text>
+</svg>

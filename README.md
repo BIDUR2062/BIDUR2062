@@ -1,75 +1,91 @@
 # 👋 Hi, I'm Bidur Khanal
 
-### AI Enthusiast | Python Developer | Backend Developer | Data Analyst
+### BSc CSIT Student · Aspiring AI/ML & Backend Developer
 
----
-![Data Analyst](https://img.shields.io/badge/Data%20Analytics-Pandas%20%7C%20NumPy%20%7C%20SQL-blue?style=flat-square)
-
-## 🌐 Socials
-
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/myself_bidur/)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bidur-khanal-a71810209/)
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BIDUR2062)
+I'm a Computer Science and Information Technology student based in Kathmandu, Nepal, currently building my skills in Python, data science, and backend development. I enjoy turning ideas into working code and I'm actively looking for internship and entry-level opportunities.
 
 ---
 
-## 💻 Tech Stack
-
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
----
-
-## 🤖 AI / Machine Learning
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-
----
-
-## 🔥 GitHub Streak
-
-![GitHub Streak](./profile/streak.svg)
-
-## 📈 Top Languages
-
-![Top Languages](./profile/top-langs.svg)
-
----
 ## 🚀 About Me
 
-* 🎓 BSc CSIT Student
-* 🤖 Interested in Artificial Intelligence and Machine Learning
-* 🐍 Python Developer
-* ⚙️ Backend Developer
-* 📊 Data Analyst
-* 📈 Interested in Data Analysis and Visualization
-* 💻 Interested in building intelligent applications
-* 📚 Currently learning AI/ML, Data Analytics, and Backend Development
-* 🔍 Open to internships and full-time opportunities
+- 🎓 BSc CSIT Student
+- 🐍 Learning Python for backend and data-driven applications
+- 📊 Practicing data analysis and visualization with Pandas, NumPy, and Jupyter Notebook
+- 🤖 Exploring the fundamentals of Machine Learning and AI
+- 🌱 Currently strengthening: Data Structures & Algorithms, Databases, and ML basics
+- 🔍 Open to internships, entry-level roles, and collaborative projects
 
+---
+
+## 🛠️ Tech Stack
+
+**Languages**
+
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+**Data & ML**
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+
+**Tools**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+
+---
+
+## 📌 Featured Projects
+
+| Project | Description | Link |
+|---|---|---|
+| **Portfolio Website** | Personal portfolio built with HTML, CSS, and JavaScript, deployed on Vercel | [Live site](https://portfolio-bidur.vercel.app) · [Repo](https://github.com/BIDUR2062/Portfolio) |
+| **Python Coding Exercises** | Collection of Python programs covering basic to intermediate programming concepts | [Repo](https://github.com/BIDUR2062/Python-Coding-Exercises) |
+| **Data Science Practice** | Notebooks exploring data analysis, cleaning, and visualization techniques | [Repo](https://github.com/BIDUR2062/Data-Science) |
+| **B.Sc. CSIT Labs** | Programming exercises and lab assignments from coursework | [Repo](https://github.com/BIDUR2062/B.Sc.CSIT-) |
+
+> 🔨 More projects are in progress — check my [repositories](https://github.com/BIDUR2062?tab=repositories) for the latest work.
+
+---
+
+## 📈 GitHub Stats
+
+<p align="left">
+  <img src="https://github.com/BIDUR2062/BIDUR2062/raw/main/profile/streak.svg" alt="GitHub Streak" />
+</p>
+<p align="left">
+  <img src="https://github.com/BIDUR2062/BIDUR2062/raw/main/profile/top-langs.svg" alt="Top Languages" />
+</p>
+
+---
+
+## 🎓 Education
+
+**Bachelor of Science in Computer Science and Information Technology (BSc CSIT)**
+
+Coursework includes:
+- Artificial Intelligence & Machine Learning
+- Database Management Systems
+- Operating Systems
+- Computer Networks
+- Software Engineering
 
 ---
 
 ## 📫 Connect With Me
 
-If you are interested in collaboration, internships, projects, or development opportunities, feel free to connect with me.
-
-[![GitHub](https://img.shields.io/badge/GitHub-BIDUR2062-181717?style=for-the-badge&logo=github)](https://github.com/BIDUR2062)
-
-[![Instagram](https://img.shields.io/badge/Instagram-bidurkhanal10-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/myself_bidur/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bidur-khanal-a71810209/)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/myself_bidur/)
+[![Facebook](https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/bidurkhanal10)
 
 ---
 
-⭐ Thanks for visiting my profile!
+⭐ **Thanks for stopping by — feel free to explore my repos, and reach out if you'd like to collaborate!**

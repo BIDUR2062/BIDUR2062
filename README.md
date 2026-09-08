@@ -43,19 +43,6 @@ I'm a Computer Science and Information Technology student based in Kathmandu, Ne
 
 ---
 
-## 📌 Featured Projects
-
-| Project | Description | Link |
-|---|---|---|
-| **Portfolio Website** | Personal portfolio built with HTML, CSS, and JavaScript, deployed on Vercel | [Live site](https://portfolio-bidur.vercel.app) · [Repo](https://github.com/BIDUR2062/Portfolio) |
-| **Python Coding Exercises** | Collection of Python programs covering basic to intermediate programming concepts | [Repo](https://github.com/BIDUR2062/Python-Coding-Exercises) |
-| **Data Science Practice** | Notebooks exploring data analysis, cleaning, and visualization techniques | [Repo](https://github.com/BIDUR2062/Data-Science) |
-| **B.Sc. CSIT Labs** | Programming exercises and lab assignments from coursework | [Repo](https://github.com/BIDUR2062/B.Sc.CSIT-) |
-
-> 🔨 More projects are in progress — check my [repositories](https://github.com/BIDUR2062?tab=repositories) for the latest work.
-
----
-
 ## 📈 GitHub Stats
 
 <p align="left">
